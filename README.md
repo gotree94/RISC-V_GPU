@@ -174,7 +174,7 @@ RISC-V의 개방형 ISA 특성 덕분에 명령어 확장을 통한 GPU 가속, 
 
 ---
 
-## 9. 
+## 9. 접근 방식
 
 |프로젝트	| 접근 방식 |
 |:--------:|:--------:|
@@ -186,7 +186,7 @@ RISC-V의 개방형 ISA 특성 덕분에 명령어 확장을 통한 GPU 가속, 
 
 ---
 
-## 9. 참고 자료
+## 10. 참고 자료
 
 - RISC-V International: https://riscv.org
 - Vortex 프로젝트: https://vortex.cc.gatech.edu
