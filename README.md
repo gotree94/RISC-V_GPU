@@ -174,6 +174,18 @@ RISC-V의 개방형 ISA 특성 덕분에 명령어 확장을 통한 GPU 가속, 
 
 ---
 
+## 9. 
+
+|프로젝트	| 접근 방식 |
+|:--------:|:--------:|
+| Vortex	| RISC-V ISA에 6개 명령어만 추가해서 GPGPU+3D 구현 — 가장 실용적 |
+|Ventus	| RVV(Vector Extension)를 그대로 GPGPU에 활용 |
+|e-GPU	| FPU를 아예 빼고 정수만 써서 TinyAI 초저전력에 특화 |
+|Borg	| Chisel로 CPU부터 셰이더까지 직접 설계, Tiny Tapeout으로 실제 칩 제작 |
+|RV64X	| RISC-V 벡터 위에 그래픽 전용 데이터 타입/명령어를 새로 정의 |
+
+---
+
 ## 9. 참고 자료
 
 - RISC-V International: https://riscv.org
