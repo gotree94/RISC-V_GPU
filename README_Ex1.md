@@ -1,4 +1,4 @@
-# 구현
+## 구현
 
 > RISC-V 기반 GPU 프로젝트에 대한 계획을 구체화하고 실제 구현을 진행하려는 목표를 달성하기 위해 <br> 다음과 같은 단계별 접근 방식을 제안드립니다. <br> 각 프로젝트의 특징과 기술을 고려하여 맞춤형 구현 로드맵을 제시하겠습니다.
 
@@ -127,8 +127,7 @@
      ```bash
      # Sbt를 설치합니다.
      echo "deb https://repo.scala-sbt.org stable main" | sudo tee /etc/apt/sources.list.d/sbt.list
-     curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF734999B3639CEE26841" | 
-sudo apt-key add
+     curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF734999B3639CEE26841" | sudo apt-key add
      sudo apt-get update
      sudo apt-get install sbt
      ```
